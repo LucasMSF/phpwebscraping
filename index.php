@@ -41,11 +41,6 @@ $sheet->getStyle('B1')
             ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
             ->getStartColor()->setARGB(\PhpOffice\PhpSpreadsheet\Style\Color::COLOR_GREEN);
 
-$sheet->getStyle('B1')
-            ->getFill()
-            ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
-            ->getStartColor()->setARGB(\PhpOffice\PhpSpreadsheet\Style\Color::COLOR_GREEN);
-
 $sheet->getStyle('A:B')->getAlignment()->setHorizontal('center');
 
 $sheet->getStyle('A1')->applyFromArray($bold);
